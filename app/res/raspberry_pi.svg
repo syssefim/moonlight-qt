@@ -1,0 +1,18 @@
+<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+  <!-- Leaves -->
+  <g fill="#75A928">
+    <path d="M11.6 6.4C10.9 3.6 8.4 1.6 4.9 1.3c.4 3 2.7 5.2 6.7 5.1z"/>
+    <path d="M12.4 6.4c.7-2.8 3.2-4.8 6.7-5.1-.4 3-2.7 5.2-6.7 5.1z"/>
+  </g>
+  <!-- Berry -->
+  <g fill="#C51A4A">
+    <circle cx="9.2" cy="9.4" r="2.5"/>
+    <circle cx="14.8" cy="9.4" r="2.5"/>
+    <circle cx="6.4" cy="13.4" r="2.4"/>
+    <circle cx="12" cy="12.6" r="2.6"/>
+    <circle cx="17.6" cy="13.4" r="2.4"/>
+    <circle cx="8.9" cy="17.4" r="2.5"/>
+    <circle cx="15.1" cy="17.4" r="2.5"/>
+    <circle cx="12" cy="20.6" r="2.3"/>
+  </g>
+</svg>

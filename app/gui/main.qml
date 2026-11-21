@@ -387,6 +387,27 @@ ApplicationWindow {
             }
 
             NavigableToolButton {
+                id: raspberryPiButton
+
+                iconSource: "qrc:/res/raspberry_pi.svg"
+
+                // Material tints toolbar icons with the foreground color;
+                // a transparent tint keeps the logo's own colors.
+                icon.color: "transparent"
+
+                ToolTip.delay: 1000
+                ToolTip.timeout: 3000
+                ToolTip.visible: hovered
+                ToolTip.text: qsTr("Raspberry Pi")
+
+                // TODO: No action yet
+
+                Keys.onDownPressed: {
+                    stackView.currentItem.forceActiveFocus(Qt.TabFocus)
+                }
+            }
+
+            NavigableToolButton {
                 id: helpButton
                 visible: SystemProperties.hasBrowser
 
